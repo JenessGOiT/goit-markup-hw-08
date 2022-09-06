@@ -1,0 +1,26 @@
+.hero-button-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    outline: transparent;
+    transition: border-color var(--timing-function) var(--duration);
+    &:focus {
+            border-color: var(--accent-color);
+        }
+}
+
+.close-icon {
+    transition: fill var(--timing-function) var(--duration);
+    .hero-button-close:hover & {
+            fill: var(--accent-color);
+        }
+}

@@ -1,0 +1,40 @@
+// Общие настройки
+
+@import './utils/vars';
+@import './utils/hidden';
+@import './utils/mixins';
+@import './base/reset';
+
+// Компоненты
+
+@import './components/body';
+@import './components/container';
+@import './components/logo';
+@import './components/button';
+@import './components/soc-icon';
+
+// Макет
+
+@import './layout/header/header';
+@import './layout/header/navsite';
+@import './layout/header/mobmenu';
+@import './layout/header/btnmenu';
+@import './layout/main/hero';
+@import './layout/modal/modal';
+@import './layout/modal/modal-close';
+@import './layout/modal/modal-form';
+@import './layout/main/skill';
+@import './layout/main/work';
+@import './layout/main/team';
+@import './layout/main/clients';
+@import './layout/footer/footer';
+@import './layout/footer/footer-soc';
+@import './layout/footer/footer-form';
+
+// Портфолио
+
+@import './layout/portfolio/portfolio-nav';
+@import './layout/portfolio/portfolio-team-work';
+
+
+
